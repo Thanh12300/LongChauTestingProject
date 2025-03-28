@@ -22,14 +22,17 @@ import pages.SearchResultPage
 import org.openqa.selenium.Keys as Keys
 
 
+'1. Navigate to url'
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
+'2.Enter search keyword'
 String keyword = "omega 3"
 HomePage homepage = new HomePage()
-homepage.searchProduct(keyword)
+homepage.searchProductByKeyword(keyword)
 
+'3. Verify search result'
 SearchResultPage searchResult = new SearchResultPage()
-boolean isCorrect = searchResult.checkSearchResults(keyword)
+boolean isCorrect = searchResult.checkSearchResults()
 if(isCorrect) {
 	KeywordUtil.markPassed("Product list is MATCH with search keyword")
 }

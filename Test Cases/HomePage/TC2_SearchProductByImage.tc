@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1_SearchProduct</name>
+   <name>TC2_SearchProductByImage</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>992439f4-15f4-42d4-9eaf-f31ae8b247e4</testCaseGuid>
+   <testCaseGuid>511cef9e-560d-4d3c-8d56-57ccd9d36887</testCaseGuid>
 </TestCaseEntity>

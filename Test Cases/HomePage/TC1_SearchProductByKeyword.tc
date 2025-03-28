@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_SearchProductByKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>992439f4-15f4-42d4-9eaf-f31ae8b247e4</testCaseGuid>
+</TestCaseEntity>
